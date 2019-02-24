@@ -1,0 +1,113 @@
+.grilla {
+	width: 95%;
+	margin: 5%;
+	border: 1px black;
+}
+.grilla2 {
+	margin: 5%;
+	border: 2px black;
+	background-color: white;
+	color: white;
+}
+.texto-grilla {
+	font-size: 12px;
+    color: #4a4a4a;
+    text-decoration: none;
+    background-color: #ffffff;
+    border: 1 px solid black;
+}
+.cuerpo {
+	font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, sans-serif;
+    background-color: #1a1b1d;
+    background-color: #fff;
+    margin: 0px;
+}
+.cuerpo-1 {
+	margin: 0 auto;
+  	max-width: 1280px;
+  	width: 95%;
+}
+.fuente {
+	background-color: #fff;
+    padding-right: 15px;
+    font: 400 40px 'oswald', sans-serif;
+    letter-spacing: 1px;
+}
+.imagen {
+	text-align: center;
+    background-color: #000;
+}
+.select {
+	float: right;
+    border-bottom: 0px solid #ccc !important;
+    padding-bottom: 0px !important;
+}
+.fuente2 {
+	text-align: center;
+	background-color: #aaa9a9; 
+}
+.productos {
+	float: left;
+    padding-top: 11px;
+    padding-left: 15px;
+    font-size: 17px;
+    color: #0a0a0a;
+}
+.fondo {
+	background-color: #ECE7E7;
+}
+.titulos {
+	font: 400 36px 'Oswald', sans-serif;
+    position: relative;
+    top: auto;
+    left: auto;
+    padding: 25px 0 40px;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    text-align: center;
+}
+.precio {
+	text-align: right;
+    padding: 25px 0 0;
+    border-top: 1px solid #d3d3d3;
+    vertical-align: middle;
+    -webkit-box-shadow: 0px -8px 18px -15px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px -8px 18px -15px rgba(0,0,0,0.5);
+    box-shadow: 0px -8px 18px -15px rgba(0,0,0,0.5);
+}
+.rawprecio {
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.mainCopy {
+	padding-top: 30px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 30px;
+    padding-top: 0;
+    margin-top: 0px;
+}
+.copyTitle {
+	font: 300 24px/32px 'Lato', sans-serif;
+}
+.color-1 {
+	color: #767272;
+	align-content: justify;
+}
+.sectionTitle {
+	margin-bottom: 30px;
+}
+.span-1 {
+	text-align: : center;
+}
+.rightColumn,.leftColumn  {
+	margin: 0 auto;
+    padding-right: 1em;
+    max-width: 50%;
+    float: left;
+}
+.icono {
+	width: 32 px;
+	height: 32 px;
+}
