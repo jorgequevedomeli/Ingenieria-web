@@ -111,3 +111,32 @@
 	width: 32 px;
 	height: 32 px;
 }
+.text-center{
+    text-align: center
+}
+.text-left{
+    text-align: left
+}
+.with-gap[type="radio"]:checked+label:after{
+    background-color:#262626;
+    border-color: #262626
+ } 
+ .with-gap[type="radio"]:checked+label:before{
+    border-color: #262626;
+  }
+  .btn-group {
+    width: 100%;
+  }
+  .boton{
+      background-color: #ffffff;
+      border-color: #006bb3;
+      border: 1px;
+  }
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.foot{
+    background-color: #404040;
+    width: 100%;
+}
