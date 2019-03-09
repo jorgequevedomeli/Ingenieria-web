@@ -38,16 +38,16 @@
 		</header>
 
 		<section>
-			  <nav>
+			<nav>
 			    <div class="nav-wrapper white">
 			      <ul id="nav-mobile" class="left hide-on-med-and-down black white lightten-2">
-			      	<li><a href="index.html"><div class="black-text"><img src="./imagenes/Nav-GibsonCom.png" width="5%"><b></b></div></a></li>
+			      	<li><a href="index.php"><div class="black-text"><img src="./imagenes/Nav-GibsonCom.png" width="5%"><b></b></div></a></li>
 			      	<!-- Menu PRODUCTS hacia abajo -->
 			      	<li> 
-						<a class = "dropdown-button grey-text" href = "productos.html" data-activates = "dropdown1">PRODUCTS</a>
+						<a class = "dropdown-button grey-text" href = "#" data-activates = "dropdown1">PRODUCTS</a>
 						<ul id = "dropdown1" class = "grey-text dropdown-content">
-						<li><a class="grey-text" href = "electric-guitars.html">Electric Guitars</a></li>
-						<li><a class="grey-text" href = "acoustic-guitars.html">Acoustic Instruments</a></li>
+						<li><a class="grey-text" href = "electric-guitars.php">Electric Guitars</a></li>
+						<li><a class="grey-text" href = "acoustic-guitars.php">Acoustic Instruments</a></li>
 						<li><a class="grey-text" href = "#">Gear & Accessories</a></li>
 						<li><a class="grey-text" href = "#">Pro Audio</a></li>
 						</ul>
@@ -70,7 +70,7 @@
 						<li><a class="grey-text" href = "#">Youtube</a></li>
 						</ul>
 			        </li>
-			        <li><a href="#"><div class="grey-text">STORE</div></a></li>
+			        <li><a href="store.php"><div class="grey-text">STORE</div></a></li>
 			        <li>
 			        	<a class = "dropdown-button grey-text" href = "#" data-activates = "dropdown4">24/7 SUPPORT</a>
 						<ul id = "dropdown4" class = "grey-text dropdown-content">
@@ -96,7 +96,7 @@
 			<div class="row">
 				<div class="col s3">
 					<div class="card-panel #eceff1 blue-grey lighten-5">
-						<a href="gibson-1.html"><div class="grilla2"> <img src="./productos/imagenes/gibson-1.jpg"> </div></a>
+						<a href="gibson-1.php"><div class="grilla2"> <img src="./productos/imagenes/gibson-1.jpg"> </div></a>
 						<span class="texto-grilla"> Gibson Custom </span>
 						<br>
 						<span class="texto-grilla2	"> <b>50th Anniversary 1968 Les Paul Custom</b></span>
@@ -104,7 +104,7 @@
 				</div>
 				<div class="col s3">
 					<div class="card-panel #eceff1 blue-grey lighten-5">
-						<a href="gibson-2.html"><div class="grilla2"> <img src="./productos/imagenes/gibson-2.jpg"> </div></a>
+						<a href="gibson-2.php"><div class="grilla2"> <img src="./productos/imagenes/gibson-2.jpg"> </div></a>
 						<span class="texto-grilla"> Gibson Custom </span>
 						<br>
 						<span class="texto-grilla2"> <b>Heavy-Aged 1968 Les Paul Goldtop</b></span>
