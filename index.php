@@ -41,13 +41,13 @@
 			  <nav>
 			    <div class="nav-wrapper white">
 			      <ul id="nav-mobile" class="left hide-on-med-and-down black white lightten-2">
-			      	<li><a href="index.html"><div class="black-text"><img src="./imagenes/Nav-GibsonCom.png" width="5%"><b></b></div></a></li>
+			      	<li><a href="index.php"><div class="black-text"><img src="./imagenes/Nav-GibsonCom.png" width="5%"><b></b></div></a></li>
 			      	<!-- Menu PRODUCTS hacia abajo -->
 			      	<li> 
 						<a class = "dropdown-button grey-text" href = "#" data-activates = "dropdown1">PRODUCTS</a>
 						<ul id = "dropdown1" class = "grey-text dropdown-content">
-						<li><a class="grey-text" href = "electric-guitars.html">Electric Guitars</a></li>
-						<li><a class="grey-text" href = "acoustic-guitars.html">Acoustic Instruments</a></li>
+						<li><a class="grey-text" href = "electric-guitars.php">Electric Guitars</a></li>
+						<li><a class="grey-text" href = "acoustic-guitars.php">Acoustic Instruments</a></li>
 						<li><a class="grey-text" href = "#">Gear & Accessories</a></li>
 						<li><a class="grey-text" href = "#">Pro Audio</a></li>
 						</ul>
@@ -70,7 +70,7 @@
 						<li><a class="grey-text" href = "#">Youtube</a></li>
 						</ul>
 			        </li>
-			        <li><a href="store.html"><div class="grey-text">STORE</div></a></li>
+			        <li><a href="store.php"><div class="grey-text">STORE</div></a></li>
 			        <li>
 			        	<a class = "dropdown-button grey-text" href = "#" data-activates = "dropdown4">24/7 SUPPORT</a>
 						<ul id = "dropdown4" class = "grey-text dropdown-content">
@@ -141,9 +141,9 @@
 		<div class="row">
 			<div class="col s6">
 				<div class="#1a237e-text darken-4">
-					<h5><a href="#">Interview: Lzzy Hale and Her New Signature Explorer</a> </h5>
-					<h5><a href="#">Interview: Def Leppard's Vivian Campbell on His Signature Gibson Les Paul Custom</a> </h5>
-					<h5><a href="#">Legends of the Les Paul: Jeff Beck</a> </h5>
+					<h5><a href="new-1.php">Gibson: Launches New Product, Showcases Marquee Artists and New Talent Worldwide at NAMM 2019</a> </h5>
+					<h5><a href="new-2.php">Gibson Reveals Exciting New Product Line-Up & Artist Collaborations Ahead of Winter NAMM</a> </h5>
+					<h5><a href="new-3.php">Gibson: Announces Limited-Edition Chris Cornell Tribute Guitar</a> </h5>
 				</div>
 				<div class="fuente2">
 					<a href="#"><b>View all news</b></a>
