@@ -10,7 +10,7 @@
     $dbconn4 = pg_connect($conn_string) or die("ERROR!!!!!");
     pg_query($dbconn4,"create table prueba(int dato)");
     pg_query($dbconn4,"insert into prueba values (15)");
-    $re = pg_query("select * from prueba");
+    $re = pg_query($dbconn4,"select * from prueba");
     print_r($re);
     echo $re[0];
     echo "asdd llega";
