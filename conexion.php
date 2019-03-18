@@ -13,6 +13,7 @@
     //pg_exec($dbconn4,"CREATE TABLE prueba(edad INT)");
     pg_query($dbconn4,"INSERT INTO prueba VALUES (17)");
     $re = pg_query($dbconn4,"SELECT * FROM prueba");
+    $re = pg_fetch_all($re);
     print_r($re);
     //echo $re[0];
 ?>
