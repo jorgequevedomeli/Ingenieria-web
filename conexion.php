@@ -12,5 +12,6 @@
     pg_query($dbconn4,"insert into prueba values (15)");
     $re = pg_query("select * from prueba");
     print_r($re);
-    echo "SIIIIIIII";
+    echo $re[0];
+    echo "asdd llega";
 ?>
