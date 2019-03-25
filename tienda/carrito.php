@@ -107,7 +107,7 @@
 						$image = $_POST["image"];
 						$orientation = $_POST["guitar-orientation"];
 						
-						$sql = "INSERT INTO carritogibson VALUES ('".$orientation."','".$name."','".$image."',".$price.")";
+						$sql = "INSERT INTO carritogibson(orientation,nombre,imagen,precio) VALUES ('".$orientation."','".$name."','".$image."',".$price.")";
 						pg_query($dbconn4,$sql);
 						// Selecciono productos
 						$sql = "SELECT * FROM carritogibson";
