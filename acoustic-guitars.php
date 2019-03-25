@@ -38,51 +38,45 @@
 		</header>
 
 		<section>
-			  <nav>
-			    <div class="nav-wrapper white">
-			      <ul id="nav-mobile" class="left hide-on-med-and-down black white lightten-2">
-			      	<li><a href="index.html"><div class="black-text"><img src="./imagenes/Nav-GibsonCom.png" width="5%"><b></b></div></a></li>
-			      	<!-- Menu PRODUCTS hacia abajo -->
-			      	<li> 
-						<a class = "dropdown-button grey-text" href = "productos.html" data-activates = "dropdown1">PRODUCTS</a>
-						<ul id = "dropdown1" class = "grey-text dropdown-content">
-                        <li><a class="grey-text" href = "electric-guitars.html">Electric Guitars</a></li>
-                        <li><a class="grey-text" href = "acoustic-guitars.html">Acoustic Instruments</a></li>
-						<li><a class="grey-text" href = "#">Gear & Accessories</a></li>
-						<li><a class="grey-text" href = "#">Pro Audio</a></li>
-						</ul>
-					</li>
-			        <li>
-						<a class = "dropdown-button grey-text" href = "#" data-activates = "dropdown2">NEWS-LIFESTYLE</a>
-						<ul id = "dropdown2" class = "grey-text dropdown-content">
-						<li><a class="grey-text" href = "#">Features</a></li>
-						<li><a class="grey-text" href = "#">News</a></li>
-						<li><a class="grey-text" href = "#">Gear & Tech</a></li>
-						<li><a class="grey-text" href = "#">Contests</a></li>
-						</ul>
-			        </li>
-			        <li>
-			        	<a class = "dropdown-button grey-text" href = "#" data-activates = "dropdown3">COMMUNITY</a>
-						<ul id = "dropdown3" class = "grey-text dropdown-content">
-						<li><a class="grey-text" href = "#">Forums</a></li>
-						<li><a class="grey-text" href = "#">Facebook</a></li>
-						<li><a class="grey-text" href = "#">Twitter</a></li>
-						<li><a class="grey-text" href = "#">Youtube</a></li>
-						</ul>
-			        </li>
-			        <li><a href="#"><div class="grey-text">STORE</div></a></li>
-			        <li>
-			        	<a class = "dropdown-button grey-text" href = "#" data-activates = "dropdown4">24/7 SUPPORT</a>
-						<ul id = "dropdown4" class = "grey-text dropdown-content">
-						<li><a class="grey-text" href = "#">Dealers</a></li>
-						<li><a class="grey-text" href = "#">Acoustic Five-Star Dealers</a></li>
-						<li><a class="grey-text" href = "#">Online-Dealers</a></li>
-						<li><a class="grey-text" href = "#">International Distributors</a></li>
-						</ul>
-			        </li>
-			      </ul>
-			    </div>
-			  </nav>
+			<nav>
+						<div class="nav-wrapper white">
+							<ul id="nav-mobile" class="left hide-on-med-and-down black white lightten-2">
+								<li><a href="index.php"><div class="black-text"><img src="./imagenes/Nav-GibsonCom.png" width="5%"><b></b></div></a></li>
+								<!-- Menu PRODUCTS hacia abajo -->
+								<li> 
+							<a class = "dropdown-button grey-text" href = "#" data-activates = "dropdown1">PRODUCTS</a>
+							<ul id = "dropdown1" class = "grey-text dropdown-content">
+							<li><a class="grey-text" href = "electric-guitars.php">Electric Guitars</a></li>
+							<li><a class="grey-text" href = "acoustic-guitars.php">Acoustic Instruments</a></li>
+							<li><a class="grey-text" href = "#">Gear & Accessories</a></li>
+							<li><a class="grey-text" href = "#">Pro Audio</a></li>
+							</ul>
+						</li>
+								<li>
+							<a class = "dropdown-button grey-text" href = "#" data-activates = "dropdown2">NEWS-LIFESTYLE</a>
+							<ul id = "dropdown2" class = "grey-text dropdown-content">
+							<li><a class="grey-text" href = "#">Features</a></li>
+							<li><a class="grey-text" href = "#">News</a></li>
+							<li><a class="grey-text" href = "#">Gear & Tech</a></li>
+							<li><a class="grey-text" href = "#">Contests</a></li>
+							</ul>
+								</li>
+								<li>
+									<a class = "dropdown-button grey-text" href = "#" data-activates = "dropdown3">COMMUNITY</a>
+							<ul id = "dropdown3" class = "grey-text dropdown-content">
+							<li><a class="grey-text" href = "#">Forums</a></li>
+							<li><a class="grey-text" href = "#">Facebook</a></li>
+							<li><a class="grey-text" href = "#">Twitter</a></li>
+							<li><a class="grey-text" href = "#">Youtube</a></li>
+							</ul>
+								</li>
+								<li><a href="store.php"><div class="grey-text">STORE</div></a></li>
+								<li>
+									<a class = "dropdown-button grey-text" href = "tienda/carrito.php" data-activates = "dropdown4">CART</a>
+								</li>
+							</ul>
+						</div>
+					</nav>
 		</section>
 		<section>
 			<div class="col s12">

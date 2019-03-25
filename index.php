@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Products</title>
+		<title>Gibson</title>
 		<link rel="stylesheet" href="./materialize/css/materialize.css" />
 		<link rel="stylesheet" href="./materialize/css/estilos.css" />
 		<link href="./imagenes/favicon.ico" type="image/x-icon" rel="shortcut icon"/> 
@@ -41,13 +41,13 @@
 			  <nav>
 			    <div class="nav-wrapper white">
 			      <ul id="nav-mobile" class="left hide-on-med-and-down black white lightten-2">
-			      	<li><a href="index.html"><div class="black-text"><img src="./imagenes/Nav-GibsonCom.png" width="5%"><b></b></div></a></li>
+			      	<li><a href="index.php"><div class="black-text"><img src="./imagenes/Nav-GibsonCom.png" width="5%"><b></b></div></a></li>
 			      	<!-- Menu PRODUCTS hacia abajo -->
 			      	<li> 
-						<a class = "dropdown-button grey-text" href = "productos.html" data-activates = "dropdown1">PRODUCTS</a>
+						<a class = "dropdown-button grey-text" href = "#" data-activates = "dropdown1">PRODUCTS</a>
 						<ul id = "dropdown1" class = "grey-text dropdown-content">
-						<li><a class="grey-text" href = "electric-guitars.html">Electric Guitars</a></li>
-						<li><a class="grey-text" href = "acoustic-guitars.html">Acoustic Instruments</a></li>
+						<li><a class="grey-text" href = "electric-guitars.php">Electric Guitars</a></li>
+						<li><a class="grey-text" href = "acoustic-guitars.php">Acoustic Instruments</a></li>
 						<li><a class="grey-text" href = "#">Gear & Accessories</a></li>
 						<li><a class="grey-text" href = "#">Pro Audio</a></li>
 						</ul>
@@ -70,15 +70,9 @@
 						<li><a class="grey-text" href = "#">Youtube</a></li>
 						</ul>
 			        </li>
-			        <li><a href="#"><div class="grey-text">STORE</div></a></li>
+			        <li><a href="store.php"><div class="grey-text">STORE</div></a></li>
 			        <li>
-			        	<a class = "dropdown-button grey-text" href = "#" data-activates = "dropdown4">24/7 SUPPORT</a>
-						<ul id = "dropdown4" class = "grey-text dropdown-content">
-						<li><a class="grey-text" href = "#">Dealers</a></li>
-						<li><a class="grey-text" href = "#">Acoustic Five-Star Dealers</a></li>
-						<li><a class="grey-text" href = "#">Online-Dealers</a></li>
-						<li><a class="grey-text" href = "#">International Distributors</a></li>
-						</ul>
+			        	<a class = "dropdown-button grey-text" href = "tienda/carrito.php" data-activates = "dropdown4">CART</a>
 			        </li>
 			      </ul>
 			    </div>
@@ -90,47 +84,85 @@
 			</div>
 		</section>
 		<br>
-		<section class="fondo">
-			<div class="productos"><b> Electric Guitars </b></div>
-			<br><br>
-			<div class="row">
-				<div class="col s3">
-					<div class="card-panel #eceff1 blue-grey lighten-5">
-						<a href="gibson-1.html"><div class="grilla2"> <img src="./productos/imagenes/gibson-1.jpg"> </div></a>
-						<span class="texto-grilla"> Gibson Custom </span>
-						<br>
-						<span class="texto-grilla2	"> <b>50th Anniversary 1968 Les Paul Custom</b></span>
+	<section>
+		<div class="row">
+			<div class="col s3">
+				<a href="#">
+					<div class="grilla"> <img src="./imagenes/gibson-1.jpg" width="95%"> </div>
+				</a>
+			</div>
+			<div class="col s3">
+				<a href="#">
+					<div class="grilla"> <img src="./imagenes/gibson-2.jpg" width="95%"> </div>
+				</a>
+			</div>
+			<div class="col s3">
+				<a href="#">
+					<div class="grilla"> <img src="./imagenes/gibson-3.jpg" width="95%"> </div>
+				</a>
+			</div>
+			<div class="col s3">
+				<a href="#">
+					<div class="grilla"> <img src="./imagenes/gibson-4.jpg" width="95%""> </div></a>
+			</div>
+		</div>
+	</section>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<section>
+		<div class=" fuente">
+						Featured News
 					</div>
+					<div class="row">
+						<div class="col s6">
+							<a href="#">
+								<div class="imagen"><img src="./imagenes/news.jpg"></div>
+							</a>
+						</div>
+						<div class="col s6">
+							<a href="#">
+								<div class="imagen"><img src="./imagenes/slash.jpg"></div>
+							</a>
+						</div>
+					</div>
+	</section>
+
+	<section>
+		<div class="row">
+			<div class="col s6">
+				<div class="#1a237e-text darken-4">
+					<h5><a href="new-1.php">Gibson: Launches New Product, Showcases Marquee Artists and New Talent Worldwide at NAMM 2019</a> </h5>
+					<h5><a href="new-2.php">Gibson Reveals Exciting New Product Line-Up & Artist Collaborations Ahead of Winter NAMM</a> </h5>
+					<h5><a href="new-3.php">Gibson: Announces Limited-Edition Chris Cornell Tribute Guitar</a> </h5>
 				</div>
-				<div class="col s3">
-					<div class="card-panel #eceff1 blue-grey lighten-5">
-						<a href="gibson-2.html"><div class="grilla2"> <img src="./productos/imagenes/gibson-2.jpg"> </div></a>
-						<span class="texto-grilla"> Gibson Custom </span>
-						<br>
-						<span class="texto-grilla2"> <b>Heavy-Aged 1968 Les Paul Goldtop</b></span>
-					</div>
-				</div>
-				<div class="col s3">
-					<div class="card-panel #eceff1 blue-grey lighten-5">
-						<a href="#"><div class="grilla2"> <img src="./productos/imagenes/gibson-3.jpg"> </div></a>
-						<span class="texto-grilla"> Gibson Custom </span>
-						<br>
-						<span class="texto-grilla2"> <b>Historic '61 SG Standard<br><br> </b></span>
-					</div>
-				</div>
-				<div class="col s3">
-					<div class="card-panel #eceff1 blue-grey lighten-5">
-						<a href="#"><div class="grilla2"> <img src="./productos/imagenes/gibson-4.jpg" > </div></a>
-						<span class="texto-grilla"> Gibson Custom </span>
-						<br>
-						<span class="texto-grilla2"> <b>Historic '60 Les Paul Standard</b></span>
-					</div>
+				<div class="fuente2">
+					<a href="#"><b>View all news</b></a>
 				</div>
 			</div>
-			<br>
-			<br>
-		</section>
-		<br>
+		</div>
+	</section>
+	<footer class="container foot">
+		<div class="row">
+			<div class="col s1">
+				
+			</div>
+			<div class="col s2">
+				<img src="./imagenes/Gibson-Brands.png" class="img-fluid">
+			</div>
+			<div class="col s3">
 
+			</div>
+			<div class="col s3">
+				
+			</div>
+			<div class="col s3">
+			
+			</div>
+		</div>
+	</footer>
 </body>
+
 </html>

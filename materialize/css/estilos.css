@@ -16,6 +16,9 @@
     background-color: #ffffff;
     border: 1 px solid black;
 }
+.texto-especif{
+    font-size: 10 px;
+}
 .cuerpo {
 	font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, sans-serif;
     background-color: #1a1b1d;
@@ -99,7 +102,7 @@
 	margin-bottom: 30px;
 }
 .span-1 {
-	text-align: : center;
+	text-align: center;
 }
 .rightColumn,.leftColumn  {
 	margin: 0 auto;
@@ -112,10 +115,13 @@
 	height: 32 px;
 }
 .text-center{
-    text-align: center
+    text-align: center;
 }
 .text-left{
-    text-align: left
+    text-align: left;
+}
+.text-right{
+    text-align: right;
 }
 .with-gap[type="radio"]:checked+label:after{
     background-color:#262626;
@@ -139,4 +145,7 @@
 .foot{
     background-color: #404040;
     width: 100%;
+}
+.imagennew {
+    size: 80%;
 }
