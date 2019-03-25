@@ -113,8 +113,8 @@
 						$sql = "SELECT * FROM carritogibson";
 						$re = pg_query($dbconn4,$sql);
 						$precio_acumulado = 0;
-						if($re->num_rows > 0){
-							while($row = $re->fetch_assoc()) {
+						if(pg_num_rows($re) > 0){
+							while($row = pg_fetch_row($re)) {
 								// Muestro lista de productos
 								$precio_acumulado = $precio_acumulado + $row['precio'];   
 								?>
@@ -170,8 +170,8 @@
 					$sql = "SELECT * FROM carritogibson";
 					$re = pg_query($dbconn4,$sql);
 					$precio_acumulado = 0;
-					if($re->num_rows > 0){
-						while($row = $re->fetch_assoc()) {
+					if(pg_num_rows($re) > 0){
+						while($row = pg_fetch_row($re)) {
 							// Muestro lista de productos
 							$precio_acumulado = $precio_acumulado + $row['precio'];   
 							?>
