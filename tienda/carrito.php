@@ -166,7 +166,7 @@
 					//$borrar_carrito = FALSE;
 					
 				} else{
-					// Selecciono productos
+					// Selecciono productos a mostrar
 					$sql = "SELECT * FROM carritogibson";
 					$re = pg_query($dbconn4,$sql);
 					$precio_acumulado = 0;
