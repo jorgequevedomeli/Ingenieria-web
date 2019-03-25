@@ -114,7 +114,7 @@
 						$re = pg_query($dbconn4,$sql);
 						$precio_acumulado = 0;
 						if(pg_num_rows($re) > 0){
-							while($row = pg_fetch_row($re)) {
+							while($row = pg_fetch_assoc($re)) {
 								// Muestro lista de productos
 								$precio_acumulado = $precio_acumulado + $row['precio'];   
 								?>
