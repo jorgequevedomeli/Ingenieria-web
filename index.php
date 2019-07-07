@@ -28,7 +28,7 @@
 						<div class="col s2">
 							<div id="select">
 								<select class="browser-default">
-									<option value="" disabled selected>Selecciona idioma </option>
+									<option value="" disabled selected>Select language </option>
 									<option value="1"> English </option>
 									<option value="2"> Español </option>
 								</select>
@@ -159,7 +159,16 @@
 				
 			</div>
 			<div class="col s3">
-			
+				<form method="post" action="correo.php">
+					<label class="contact"> 
+						Subscribe to Newsletter:
+					</label>
+					<input class="contact" type="email" name="mail" maxlength=25 required>
+					<br>
+					<button id="confirm" type="submit" class = "waves-marron btn-large btn-group" name="action">
+						Send mail
+					</button>
+				</form>
 			</div>
 		</div>
 	</footer>
